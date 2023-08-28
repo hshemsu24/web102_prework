@@ -5,6 +5,10 @@ body {
     background-color: #758190;
 }
 
+h2 {
+    text-align: center;
+}
+
 #tentacles {
     width: 50px;
 }
@@ -20,7 +24,15 @@ body {
 }
 
 .stats-container {
+    font-size: 110%;
     display: flex;
+    cursor: pointer;
+}
+
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
+    color: lightblue;
+
 }
 
 .stats-card {
@@ -72,4 +84,9 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
